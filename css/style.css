@@ -5,12 +5,28 @@ body {
 /* HEADER */
 
 #header-container {
+	position: relative;
 	top: -777px;
 	left: -47px;
 	width: 1440px;
 	height: 1315px;
-	position: relative;
-	background-color: red;
 }
 
 /* HEADER */
+
+/* NAVBAR */
+
+#header-container #nav-position {
+	position: absolute;
+	top: 859px;
+	left: 230px;
+	height: 36px;
+	width: 980px;
+	background-color: blue;
+}
+
+#nav-position #nav-container {
+	display: grid;
+	grid-template-columns: 102px repeat(7, 103px) 1fr;
+}
+/* NAVBAR */
