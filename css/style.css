@@ -14,7 +14,36 @@ button {
 	top: -777px;
 	left: -47px;
 	width: 1440px;
-	height: 1315px;
+	height: 538px;
+}
+
+#header-container #header-flex {
+	position: absolute;
+	top: 950px;
+	left: 230px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 335px;
+	width: 980px;
+	background-color: tomato;
+	text-align: center;
+}
+
+#header-flex #header-title {
+	width: 80%;
+	background-color: teal;
+}
+
+#header-flex #header-subtitle {
+	width: 80%;
+	background-color: turquoise;
+}
+
+#header-flex #header-link {
+	width: 80%;
+	background-color: orangered;
 }
 
 /* HEADER */
@@ -71,5 +100,6 @@ button {
 	background: transparent;
 	padding-left: 5px;
 }
+
 
 /* NAVBAR */
