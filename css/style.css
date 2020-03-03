@@ -16,16 +16,13 @@ a {
 /* HEADER */
 
 #header-container {
-  position: relative;
-  top: -777px;
-  left: -47px;
-  width: 1440px;
   height: 538px;
+  background: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") center bottom;
 }
 
 #header-container #header-flex {
-  position: absolute;
-  top: 950px;
+  position: relative;
+  top: 250px;
   left: 230px;
   display: flex;
   flex-direction: column;
@@ -78,11 +75,11 @@ a {
 /* NAVBAR */
 
 #nav-position {
-  position: absolute;
-  top: 860px;
-  left: 230px;
+  position: relative;
+  top: 83px;
   height: 36px;
   width: 980px;
+  margin: 0 auto;
 }
 
 #nav-position #nav-container {
