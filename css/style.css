@@ -22,7 +22,7 @@ a {
 
 #header-container #header-flex {
   position: relative;
-  top: 250px;
+  top: 130px;
   left: 230px;
   display: flex;
   flex-direction: column;
@@ -175,7 +175,7 @@ a {
 #footer-container {
   height: 45px;
   width: 980px;
-  margin: 30px auto 40px;
+  margin: 30px auto 25px;
   font-family: Arial, 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', sans-serif;
   font-size: 10px;
   font-stretch: ultra-condensed;
