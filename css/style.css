@@ -10,7 +10,7 @@ button {
 
 a {
   text-decoration: none;
-  color: #47a2e8;
+  color: #08c;
 }
 
 /* HEADER */
@@ -41,21 +41,21 @@ a {
 #header-flex #header-title {
   width: 80%;
   margin-bottom: 30px;
-  font-size: 70px;
+  font-size: 65px;
   font-weight: lighter;
 }
 
 #header-flex #header-subtitle {
-  width: 78%;
+  width: 82%;
   margin-bottom: 30px;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 300;
 }
 
 #header-flex #header-link {
   width: 80%;
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 300;
 }
 
