@@ -100,7 +100,14 @@ a {
   border-top: 1px solid #668;
   border-right: 1px solid #484848;
   border-bottom: 1px solid #668;
+}
+
+.nav-b a {
   color: white;
+}
+
+#nav-container .nav-b:hover {
+  background: linear-gradient(180deg, rgba(78, 78, 78, 1) 0%, rgba(55, 55, 55, 1) 50%, rgba(75, 75, 75, 1) 51%, rgba(98, 98, 98, 1) 100%);
 }
 
 #nav-container .nav-b:first-child {
@@ -123,9 +130,16 @@ a {
   width: 105px;
   border: 1px solid #2f2f2f;
   border-radius: 15px;
-  margin: 9px 13.5px;
+  margin: 7px 13.5px;
   background: transparent;
-  padding-left: 5px;
+  padding-left: 31px;
+}
+
+.material-icons {
+  position: absolute;
+  top: 8px;
+  right: 100px;
+  filter: invert(100%);
 }
 
 /* NAVBAR */
