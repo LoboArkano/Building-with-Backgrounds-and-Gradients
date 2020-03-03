@@ -4,7 +4,7 @@ The project was made with the idea of learning to use gradients and images in th
 
 
 Screenshot
-![image](https://user-images.githubusercontent.com/33432289/75793088-77ee2600-5d34-11ea-93b7-ef22f8888046.png)
+![image](https://user-images.githubusercontent.com/33432289/75801897-7a0ab180-5d41-11ea-9be2-26f9ae13e67f.png)
 
 Live Demo:
 https://raw.githack.com/LoboArkano/Building-with-Backgrounds-and-Gradients/home-page/index.html
