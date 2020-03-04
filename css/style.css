@@ -17,13 +17,14 @@ a {
 
 #header-container {
   height: 538px;
+  width: 100%;
   background: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") center bottom;
+  background-repeat: no-repeat;
 }
 
 #header-container #header-flex {
   position: relative;
   top: 130px;
-  left: 230px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -33,6 +34,7 @@ a {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
   text-align: center;
   color: white;
+  margin: 0 auto;
 }
 
 #header-flex #header-title {
@@ -143,29 +145,35 @@ a {
 #aside-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   height: 200px;
   width: 100%;
 }
 
-#aside-container .promo-img {
+#aside-container .promo-link {
   height: 200px;
-  width: 337px;
+  width: 360px;
+}
+
+#aside-container .promo-link .promo-img {
+  height: 200px;
+  width: 100%;
 }
 
 #aside-container .promo1 {
-  background: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+  background: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg) 50% 0% no-repeat;
 }
 
 #aside-container .promo2 {
-  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg) 50% 0% no-repeat;
 }
 
 #aside-container .promo3 {
-  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg) 50% 0% no-repeat;
 }
 
 #aside-container .promo4 {
-  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg) 50% 0% no-repeat;
 }
 
 /* ASIDE */
@@ -200,12 +208,7 @@ a {
   text-decoration: underline;
 }
 
-.item:first-child {
-  border-left: 0;
-  padding-left: 0;
-  margin-left: 0;
-}
-
+.item:first-child,
 .item:nth-child(8) {
   border-left: 0;
   padding-left: 0;
